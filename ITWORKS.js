@@ -17,7 +17,7 @@ He likes to tip 20% of the bill when the bill is less than $50,
 
 
 const price = [140, 45, 270]; 
-
+console.log(price[0],price[1],price[2]);
 
 function tipCalculator(bill){
     if (bill<50) {
@@ -34,7 +34,6 @@ function tipCalculator(bill){
 
 const tips = [tipCalculator(price[0]), tipCalculator(price[1]) , tipCalculator(price[2])];
 
-
 /*  Check to see if array works (they do yay! owo)
 
 console.log('The tip for $' + price[0] + ' is $' + tips[0] );
@@ -47,7 +46,7 @@ console.log('The tip for $' + price[2] + ' is $' + tips[2] );
  // Array containing.. Final Paid Amounts (bill + tip) 
 
 const finalAmount = [price[0] + tips[0] , price[1] + tips[1] , price[2] + tips[2] ]; 
-
+console.log(finalAmount[0],finalAmount[1],finalAmount[2]);
 
  // Array Method Filter :  Only contains final paid amounts over $100.
 
